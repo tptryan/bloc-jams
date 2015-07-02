@@ -15,10 +15,6 @@ body {
     min-height: 100%; /* says the height of the body must be, at minimum, 100% of the window */
 }
 
-body.landing {
-    background-color: rgb(58,23,63); /* sets the background color to an RGB value */
-}
-
 .navbar {
     padding: 0.5rem;
     background-color: rgb(101,18,95);
@@ -45,11 +41,21 @@ body.landing {
     }
     
     .column.full { width: 100%; }
-    .column.two-thirds { width: 66.7%: }
+    .column.two-thirds { width: 66.7%; }
     .column.half {width: 50%; }
     .column.third { width: 33.3%; }
     .column.fourth { width: 25%; }
     .column.flow-opposite { float: right; }
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after{
+    clear: both;
 }
 
 /* Large screens (1024p) */
