@@ -50,10 +50,14 @@ body.album {
  }
  
  .song-item-title {
-     width: 85%;
+     width: 80%;
  }
  
  .song-item-duration {
+     width: 5%;
+ }
+
+.song-item-counter {
      width: 5%;
  }
 
